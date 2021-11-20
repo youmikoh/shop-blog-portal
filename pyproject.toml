@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "shop_blog_portal"
+version = "0.1.0"
+description = ""
+authors = ["Youmi <29780339+youmikoh@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ShopifyAPI = "^9.0.0"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^21.11b1", allow-prereleases = true}
+
+[tool.poetry.scripts]
+blog-port = "shop_blog_portal.app_connection:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

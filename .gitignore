@@ -1,0 +1,6 @@
+*.ipynb
+*.json
+poetry.lock
+
+__pycache__
+
