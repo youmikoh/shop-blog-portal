@@ -1,6 +1,6 @@
 # Shop Blog Porter Tool
 
-A simple tool for shop owners to export and import blogs in bulk.
+A simple CLI tool for shop owners to export and import blogs in bulk.
 
 
 ## How to get started
@@ -10,8 +10,8 @@ A simple tool for shop owners to export and import blogs in bulk.
 
 ## Requirements
 
-Create a [private app in Admin](http://docs.shopify.com/api/tutorials/creating-a-private-app).
-Install [Python Poetry](https://python-poetry.org/docs/).
+- Create a [private app in Admin](http://docs.shopify.com/api/tutorials/creating-a-private-app).
+- Install [Python Poetry](https://python-poetry.org/docs/).
 
 
 ## Additional Resources
