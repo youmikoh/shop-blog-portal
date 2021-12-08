@@ -16,6 +16,9 @@ black = {version = "^21.11b1", allow-prereleases = true}
 [tool.poetry.scripts]
 blog-port = "shop_blog_portal.app_connection:cli"
 
+[tool.black]
+line_length = 120
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
